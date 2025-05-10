@@ -81,9 +81,9 @@ const DohResolver = () => {
 
     return (
         <div className="w-full h-full md:w-2/3 xl:w-1/2 pt-8 md:pt-32 px-8">
-            <h2 className="text-2xl font-semibold mb-1">Online DNS Resolving Demo</h2>
+            <h2 className="text-2xl font-semibold mb-1">Online DNS Resolver Demo</h2>
             <p className="mb-4 text-sm font-semibold">
-                Enter a hostname below that we can resolve to its IP address without a backend server.
+                Enter a hostname below to resolve its IP address directly in your browser.
             </p>
             <div className="mb-4">
                 <label htmlFor="hostname" className="block text-sm font-bold mb-1">
